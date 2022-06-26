@@ -1,0 +1,9 @@
+package factoryMethod;
+
+public interface Notifier {
+	public String movieName = "American Psycho";
+	public String theatreName = "PVR Yeshawanthpur";
+	public void notify() {
+		System.out.println("Your mom");
+	}
+}

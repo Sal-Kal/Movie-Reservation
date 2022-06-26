@@ -1,0 +1,7 @@
+package factoryMethod;
+
+public class SMS implements Notifier{
+	public void notifyUser() {
+		
+	}
+}

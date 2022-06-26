@@ -1,0 +1,9 @@
+package factoryMethod;
+
+public class SMS implements Notifier{
+	public void notifyUser() {
+		System.out.println("This is an SMS");
+		System.out.println(this.movieName + " Is playing at " + this.theatreName);
+		System.out.println("Go check it out");
+	}
+}

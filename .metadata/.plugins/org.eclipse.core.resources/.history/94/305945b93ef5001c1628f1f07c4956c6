@@ -1,0 +1,15 @@
+package facade;
+
+public class TheatreProjector implements TheatreFacade{
+	public void start() {
+		System.out.println("Starting Theatre Projector");
+	}
+
+	public void pause() {
+		System.out.println("Theatre Projector has been paused");
+	}
+
+	public void stop() {
+		System.out.println("Stopping Theatre Projector");
+	}
+}

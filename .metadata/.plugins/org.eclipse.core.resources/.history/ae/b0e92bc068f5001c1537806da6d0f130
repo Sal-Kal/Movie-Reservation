@@ -1,0 +1,13 @@
+package factoryMethod;
+
+public class NotifierClient {
+	public static void main(String[] args) {
+		String type;
+		int i = 1;
+		while(i) {
+			System.out.println("Enter the type of notification you want to send");
+			System.out.println("Enter 1 : SMS");
+			System.out.println("Enter 2 : Email");
+		}
+	}
+}

@@ -1,0 +1,13 @@
+package facade;
+
+public class Theatre {
+	private TheatreFacade projector;
+	private TheatreFacade popcorn;
+	private TheatreFacade soundSystem;
+	
+	public Theatre() {
+		projector = new TheatreProjector();
+		popcorn = new PopcornMachine();
+		soundSystem = new TheatreSoundSystem();
+	}
+}
